@@ -85,7 +85,7 @@ const OverviewChart = ({ isDashboard = false, view }) => {
       margin={{
         top: 20,
         right: 50,
-        bottom: isDashboard ? 50 : 100,
+        bottom: isDashboard ? 50 : 150,
         left: 70,
       }}
       xScale={{ type: "point" }}
