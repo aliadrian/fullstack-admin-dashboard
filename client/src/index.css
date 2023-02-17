@@ -56,7 +56,7 @@ g:nth-child(1) {
     margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 442px) {
+@media only screen and (max-width: 768px) {
 
     /* HEADER */
     .css-4bkgrt {
@@ -75,7 +75,7 @@ g:nth-child(1) {
     }    
     
     /* .css-1omog99 {
-        margin-bottom: 4.5rem;
+        width: 100%
     } */
 
     /* .css-1omog99 > div > div {
