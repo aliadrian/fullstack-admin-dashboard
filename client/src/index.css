@@ -68,11 +68,17 @@ g:nth-child(1) {
         margin: 1.5rem 1rem !important;
     }
 
-    .css-1yo9slo-MuiToolbar-root {
+    .css-1vjr8o2 {
         flex-direction: column;
         margin-top: 1rem;
         gap: 12px;
     }    
+
+    .css-11yo9slo-MuiToolbar-root, .css-1yo9slo-MuiToolbar-root {
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 12px;
+    }
     
     /* .css-1omog99 {
         width: 100%
