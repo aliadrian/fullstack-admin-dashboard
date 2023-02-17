@@ -28,8 +28,8 @@ const BreakdownChart = ({ isDashboard = false }) => {
     <Box
       height={isDashboard ? "375px" : "100%"}
       width={undefined}
-      minHeight={isDashboard ? "325px" : undefined}
-      minWidth={isDashboard ? "340px" : undefined}
+      minHeight={isDashboard ? "350px" : undefined}
+      minWidth={isDashboard ? "331px" : undefined}
       position="relative"
     >
       <ResponsivePie

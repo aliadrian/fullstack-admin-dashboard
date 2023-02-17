@@ -57,8 +57,8 @@ g:nth-child(1) {
 }
 
 /* ALL LISTS */
-.MuiDataGrid-root {
-    height: 97.5% !important;
+.MuiDataGrid-root:not(.css-8tuymw > div > div > div) {
+    height: 95% !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -137,5 +137,9 @@ g:nth-child(1) {
     /* .css-1ii9o6l > div > div > svg > g {
         transform: translate(0px, 0px);
     } */
+
+    .css-1ii9o6l {
+        height: 73vh !important;
+    }
 
   }  
