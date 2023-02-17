@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    /* display: grid; */
+    overflow-x: hidden;
+    /* justify-content: center; */
+}
+
+/* 
+g:nth-child(1) {
+    transform: translate(90px, 0);
+} */
+
+/* .css-1ii9o6l > div > div > svg > g {
+    transform: translate(90px, 20px);
+} */
+
+.css-1s85ugc-MuiFormControl-root {
+    margin-left: 2.5rem;
+}
+
+.css-1o3fej > div > div > svg > g > g:nth-child(4) > g:nth-child(4) {
+    transform: translateX(270px);
+}
+
+.css-lz68tr > div > div > div > svg > g > g:nth-child(3) > g:nth-child(3) {
+    transform: translateX(162.5px);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #7a7f9d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #21295c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #21295c;
+}
+
+.css-1gfd3lq>div {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 442px) {
+
+    /* HEADER */
+    .css-4bkgrt {
+        width: 100%;
+    }
+
+    /* DASHBOARD AND DOWNLOAD REPORTS BUTTON */
+    .css-8tuymw, .css-a8gz2e {
+        margin: 1.5rem 1rem !important;
+    }
+
+    .css-1yo9slo-MuiToolbar-root {
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 12px;
+    }    
+    
+    /* .css-1omog99 {
+        margin-bottom: 4.5rem;
+    } */
+
+    /* .css-1omog99 > div > div {
+        position: absolute;
+        top: 72px;
+    } */
+
+    /* 
+    .css-8tuymw > div {
+        flex-direction: column !important;
+        gap: 12px;
+    } */
+
+    /* DASHBOARD OVERVIEW CHART */
+    .css-jac2oh-MuiDataGrid-root {
+        overflow: unset;
+    }
+
+    .css-1w1xfvp {
+        padding: 0 !important;
+    }
+
+    /* DATES IN DAILY */
+    .css-1bvc4cc {
+        justify-content: space-between !important;
+    }
+
+    /* PIECHART TEXT */
+    .css-1625lkp-MuiTypography-root {
+        padding: 0 !important;
+        transform: translateY(-10px);
+    }
+
+    .css-lz68tr {
+        margin-bottom: 1rem;
+    } 
+
+    /* TRANSACTIONS */
+    .css-vyse20 {
+        display: block !important;
+    }
+
+    .css-jfg9le-MuiFormControl-root-MuiTextField-root {
+        width: 100% !important;
+    }
+
+    /* OVERVIEW */ 
+    /* .css-1ii9o6l > div > div > svg > g {
+        transform: translate(0px, 0px);
+    } */
+
+  }  
