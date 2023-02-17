@@ -29,7 +29,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
       height={isDashboard ? "375px" : "100%"}
       width={undefined}
       minHeight={isDashboard ? "350px" : undefined}
-      minWidth={isDashboard ? "331px" : undefined}
+      minWidth={isDashboard ? "370px" : undefined}
       position="relative"
     >
       <ResponsivePie
@@ -95,10 +95,10 @@ const BreakdownChart = ({ isDashboard = false }) => {
             anchor: "bottom",
             direction: "row",
             justify: false,
-            translateX: isDashboard ? 20 : 0,
+            translateX: isDashboard ? 5 : 0,
             translateY: isDashboard ? 50 : 56,
-            itemsSpacing: 0,
-            itemWidth: 85,
+            itemsSpacing: 25,
+            itemWidth: 60,
             itemHeight: 18,
             itemTextColor: "#999",
             itemDirection: "left-to-right",

@@ -7,30 +7,15 @@ body,
     height: 100%;
     width: 100%;
     font-family: "Inter", sans-serif;
-    /* display: grid; */
     overflow-x: hidden;
-    /* justify-content: center; */
 }
-
-/* 
-g:nth-child(1) {
-    transform: translate(90px, 0);
-} */
-
-/* .css-1ii9o6l > div > div > svg > g {
-    transform: translate(90px, 20px);
-} */
 
 .css-1s85ugc-MuiFormControl-root {
     margin-left: 2.5rem;
 }
 
-.css-1o3fej > div > div > svg > g > g:nth-child(4) > g:nth-child(4) {
-    transform: translateX(270px);
-}
-
-.css-lz68tr > div > div > div > svg > g > g:nth-child(3) > g:nth-child(3) {
-    transform: translateX(162.5px);
+.css-1t0ctop > div > div > div > svg > g:nth-child(3) > g:nth-child(3) {
+    transform: translate(10px, 10px);
 }
 
 ::-webkit-scrollbar {
@@ -57,9 +42,24 @@ g:nth-child(1) {
 }
 
 /* ALL LISTS */
-.MuiDataGrid-root:not(.css-8tuymw > div > div > div) {
+.MuiDataGrid-root {
     height: 95% !important;
 }
+
+g > g:nth-child(3) > g:nth-child(2) {
+    transform: translateX(70px);
+}
+
+g > g:nth-child(3) > g:nth-child(3) {
+    transform: translateX(155px);
+}
+
+@media only screen and (max-width: 360px) { 
+    g > g:nth-child(3) > g:nth-child(4) {
+        transform: translateX(245px);
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -85,21 +85,6 @@ g:nth-child(1) {
         gap: 12px;
     }
     
-    /* .css-1omog99 {
-        width: 100%
-    } */
-
-    /* .css-1omog99 > div > div {
-        position: absolute;
-        top: 72px;
-    } */
-
-    /* 
-    .css-8tuymw > div {
-        flex-direction: column !important;
-        gap: 12px;
-    } */
-
     /* DASHBOARD OVERVIEW CHART */
     .css-jac2oh-MuiDataGrid-root {
         overflow: unset;
@@ -134,12 +119,7 @@ g:nth-child(1) {
     }
 
     /* OVERVIEW */ 
-    /* .css-1ii9o6l > div > div > svg > g {
-        transform: translate(0px, 0px);
-    } */
-
-    .css-1ii9o6l {
-        height: 73vh !important;
+    .css-1ii9o6l:nth-child(2)  {
+        padding-bottom: 2rem;
     }
-
   }  

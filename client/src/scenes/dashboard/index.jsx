@@ -152,6 +152,7 @@ const Dashboard = () => {
             "& .MuiDataGrid-root": {
               border: "none",
               borderRadius: "5rem",
+              height: "100% !important",
             },
             "& .MuiDataGrid-cell": {
               borderBottom: "none",
@@ -185,17 +186,20 @@ const Dashboard = () => {
           gridColumn="span 4"
           gridRow="span 3"
           backgroundColor={theme.palette.background.alt}
-          p="1.5rem"
+          p="1.5rem 0"
           borderRadius="0.55rem"
         >
-          <Typography variant="h6" sx={{ color: theme.palette.secondary[100] }}>
+          <Typography
+            variant="h6"
+            sx={{ color: theme.palette.secondary[100], paddingLeft: "1.5rem" }}
+          >
             Sales By Category
           </Typography>
           <BreakdownChart isDashboard={true} />
           <Typography
             p="0 0.6rem"
             fontSize="0.8rem"
-            sx={{ color: theme.palette.secondary[200] }}
+            sx={{ color: theme.palette.secondary[200], padding: "0 1.5rem" }}
           >
             Breakdown of real states and information via category for revenue
             made for this year and total sales
