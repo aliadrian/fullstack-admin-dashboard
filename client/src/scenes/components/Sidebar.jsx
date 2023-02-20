@@ -107,6 +107,13 @@ const Sidebar = ({
   useEffect(() => {
     setActive(pathname.substring(1));
   }, [pathname]);
+  function ActionLink() {
+    if (!isNonMobile) {
+      setIsSidebarOpen(false);
+    } else {
+      return;
+    }
+  }
 
   return (
     <Box component="nav">
@@ -152,9 +159,8 @@ const Sidebar = ({
                   );
                 }
                 const lcText = text.toLowerCase();
-
                 return (
-                  <ListItem key={text} disablePadding>
+                  <ListItem onClick={ActionLink} key={text} disablePadding>
                     <ListItemButton
                       onClick={() => {
                         navigate(`/${lcText}`);

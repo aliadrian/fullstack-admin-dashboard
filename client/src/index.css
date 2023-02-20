@@ -46,12 +46,16 @@ body,
     height: 95% !important;
 }
 
-g > g:nth-child(3) > g:nth-child(2) {
-    transform: translateX(70px);
+/* g > g:nth-child(3) > g:nth-child(2) > text {
+    transform: translateX(0px);
+} */
+
+g > g:nth-child(3) > g:nth-child(3) > circle {
+    transform: translateX(-5px);
 }
 
-g > g:nth-child(3) > g:nth-child(3) {
-    transform: translateX(155px);
+g > g:nth-child(3) > g:nth-child(3) > text {
+    transform: translateX(-7.5px);
 }
 
 @media only screen and (max-width: 360px) { 
