@@ -1,6 +1,6 @@
 # fullstack-admin-dashboard
 
-<img src="https://i.postimg.cc/HLcf5dwj/332226429-554260780145360-9135793470184679369-n.png" />
+<img src="https://i.postimg.cc/g0VH17dN/332226429-554260780145360-9135793470184679369-n-1.png" />
 
 # How to get started
 
