@@ -1,5 +1,7 @@
 # fullstack-admin-dashboard
 
+<img src="https://i.postimg.cc/HLcf5dwj/332226429-554260780145360-9135793470184679369-n.png" />
+
 # How to get started
 
 Prerequisites: Visual Studio Code and a MongoDB account
