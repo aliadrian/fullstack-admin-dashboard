@@ -19,4 +19,4 @@ Create a new .env.local in the client folder, write the following:
 REACT_APP_BASE_URL=http/localhost:your_port_number
 </pre>
 Open the terminal cd to the client folder and in another window cd to the server folder
-Run the client folder by typing npm run start and run the server folder by typing npm run dev.
+Run the client folder by typing <pre>npm run start</pre> and run the server folder by typing <pre>npm run dev</pre>.
